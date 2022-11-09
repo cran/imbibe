@@ -1,6 +1,6 @@
 Package: imbibe
-Version: 0.1.0
-Date: 2020-10-17
+Version: 0.1.1
+Date: 2022-11-04
 Title: A Pipe-Friendly Image Calculator
 Authors@R: c(person("Jon", "Clayden", email="code@clayden.org", role=c("aut","cre"), comment=c(ORCID="0000-0002-6608-0619")),
              person("Chris", "Rorden", role="aut", comment=c(ORCID="0000-0002-7554-6142")),
@@ -17,12 +17,12 @@ License: BSD_3_clause + file LICENCE
 URL: https://github.com/jonclayden/imbibe
 BugReports: https://github.com/jonclayden/imbibe/issues
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 NeedsCompilation: yes
-Packaged: 2020-10-17 17:32:28 UTC; jon
+Packaged: 2022-11-06 12:26:15 UTC; jon
 Author: Jon Clayden [aut, cre] (<https://orcid.org/0000-0002-6608-0619>),
   Chris Rorden [aut] (<https://orcid.org/0000-0002-7554-6142>),
   John Muschelli [ctb] (<https://orcid.org/0000-0001-6469-1750>),
   Exstrom Laboratories LLC [cph]
 Repository: CRAN
-Date/Publication: 2020-10-26 09:30:02 UTC
+Date/Publication: 2022-11-09 21:50:16 UTC

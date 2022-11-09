@@ -714,7 +714,7 @@ static double filter(double t) {
 
 CLIST	* createFilter(int srcXsize, int dstXsize, int filterMethod) {
 //CLIST	* createFilter(int srcXsize, int dstXsize, double (*filterf)(), double fwidth) {
-	double (*filterf)() = filter;
+	double (*filterf)(double) = filter;
 	double fwidth;
 	if (filterMethod == 0) {
 		filterf=box_filter;

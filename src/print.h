@@ -12,7 +12,7 @@
 #define niimath_print(...) Rprintf(__VA_ARGS__)
 #define niimath_message(...) REprintf(__VA_ARGS__)
 
-int niimath_rand ();
+int niimath_rand (void);
 
 #else
 

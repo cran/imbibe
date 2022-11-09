@@ -16,7 +16,7 @@ nifti_image * getInputImage (const char *name, const int keepData);
 
 void setOutputImage (nifti_image *image);
 
-nifti_image * getOutputImage ();
+nifti_image * getOutputImage (void);
 
 #ifdef __cplusplus
 }

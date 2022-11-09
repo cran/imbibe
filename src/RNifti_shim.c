@@ -36,7 +36,7 @@ void setOutputImage (nifti_image *image)
     }
 }
 
-nifti_image * getOutputImage ()
+nifti_image * getOutputImage (void)
 {
     return outputImage;
 }
